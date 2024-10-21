@@ -1,0 +1,28 @@
+
+---> Here are the general steps for creating a VM and set up a subnet on the created Vnet in Azure using the Azure Portal:
+
+1. Log in to the Azure Portal (https://portal.azure.com/)
+2. In the menu which on the left hand side, click virtual network and then create.
+3. Fill in the required fields for the VM, including the subscription, resource group, and VM name.
+4. Under the "Settings" section, select the subnet where you want to create the VM.
+5. Select the size of the VM that you want to use.
+6. Click on the "Review + Create" button to review the settings and create the VM.
+7. Wait for the VM to be created, then go to the VM overview page and click on the "Connect" button to access the VM using Remote Desktop Protocol (RDP).
+8. Once you are connected to the VM, you can use the VM as you would use any other Windows machine.
+9. In the left-hand menu, select "All resources".
+10. Locate and click on your Virtual Network that you created earlier.
+11. In the VNet settings, find the "Subnets" option in the left-hand menu under the VNet settings.
+12. Click on the "+ Subnet" button.
+13.  Choose a meaningful name for your subnet and specify an address range for your subnet .
+14. Once created, you can see your subnet listed under the "Subnets" section of your VNet.
+
+---> Steps to create a VM on the subnet and access VM.
+
+1. Navigate to "Virtual Machines," click "+ Create," and fill in the VM details like name, region, and authentication method.
+2. In the networking tab, choose your existing Virtual Network (VNet) and select the desired subnet.
+3. Click on "Review + create," check the settings, and then click "create".
+4. Open Remote Desktop Connection in your windows on your computer.
+5. Enter the public IP address of your VM.
+6. Click Connect and then enter the username and password which you set during VM creation.
+7. A new window will be opened with some features.
+8. Now VM will be accessed.
