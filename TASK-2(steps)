@@ -1,2 +1,58 @@
-1. Create Private and Public Subnets in the above created Vnet.
+---> To construct Private and Public Subnets in the Vnet that was built above, follow these general procedures.
 
+1. Look for Virtual Networks in your Azure portal.
+2. Choose the VNet that you built in the last task.
+3. Include an Open Subnet
+4. Select the Subnets tab from the VNet overview.
+5. To add a new subnet, click Add Subnet.
+6. Give the subnet whatever name you choose.
+7. Assign a range of addresses.
+The Public IP Address should be enabled.
+9. To construct the Public Subnet, click Add.
+10. Create a Separate Subnet
+11. Click Add Subnet once again in the Subnets tab to create a private subnet.
+12. Give this subnet a name.
+13. Assign a range of addresses.
+14. Do not link this subnet to any public-facing websites in order to maintain its privacy.
+15. Now the public and private subnets are created.
+
+--->  Create a VM and attach multiple NIC with it.
+
+1. In the Azure portal, search and select Virtual Machines.
+2. Click on + Create and choose Azure Virtual Machine.
+3. Under the Basics tab, 
+    a) Select your Azure subscription.
+    b) Select an existing resource group or create a new one.
+    c) Enter a name for your VM.
+    d) Choose a region where your VM will be deployed.
+    e) Select the OS image (e.g., Ubuntu, Windows).
+    f) Select a size that supports multiple NICs.
+    g) Choose the Authentication type (SSH or password).
+    h) Provide a username and password.
+    i) Select the Virtual Network VNet you created earlier.
+    j) Select the Subnet (Public or Private) for the NIC.
+    k) Choose whether to create a Public I or none.
+    l) For NIC network security group (NSG), select Basic or Advanced.
+    m) Review and Create the VM.
+    n) Then click create.
+4. To add Additional NICs to the VM.
+5. After the VM is created, navigate to the Virtual Machines section and find the VM that you created.
+6. Select the VM and click Stop.
+7. Add a Second Network Interface.(NIC)
+8. In the VM Overview go to the Networking tab.
+9. Click on + Add network interface.
+10. In the Add network interface pane, provide
+    Name: Provide a name for the second NIC.
+    Virtual network: Choose the same VNet as the primary NIC.
+    Subnet: Select a different subnet.
+    Public IP: If required, assign a public IP or leave it as None for a private NIC.
+    Click OK to add the new NIC.
+    Configure Multiple NIC Support.
+11. Once the NIC is attached, start the VM again from the Overview tab.
+12. Verify the NICs Configuration
+13. Check Network Interface Details
+14. Go to the Networking tab of the VM.
+15. You will see both NICs listed each connected to a different subnet.
+16. Login to the VM, SSH or RDP into the VM.
+17. Use commands like ipconfig on Windows to verify that both NICs are present and working.
+18. Now the VM is created and multiple NIC is also attached.
