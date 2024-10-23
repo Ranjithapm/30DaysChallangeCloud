@@ -11,3 +11,10 @@ Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_azure-cloud
 
 1. [Create Private and Public subnets in the above created Vnet]
 2. [Create a VM and attach multiple NIC with it]
+
+Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_azure-cloudcomputing-azurechallenge-activity-7254409543487508481-0L2i?utm_source=share&utm_medium=member_desktop
+
+## Task-3
+
+1. [Create multiple VMs (i.e.) VM1 and VM2 in two different Virtual networks]
+2. [Create a Network Security Group to establish connection among VMs to ping each other and understand how the priority works]
