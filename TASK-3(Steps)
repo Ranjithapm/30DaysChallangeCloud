@@ -1,0 +1,54 @@
+TASK - 3
+
+---> Create multiple VMs (i.e.) VM1 and VM2 in two different Virtual networks.
+
+1. Go to Azure Portal and sign in with your Azure credentials.
+
+2. In the search bar at the top and type network security groups.
+
+3. Click on Network security groups under services.
+
+4. On the Network security groups page, click the + Add button.
+
+5. Enter a name for your NSG.
+
+6. Select the resource group that your VMs belong to.
+
+7. Choose the region where the resources are located.
+
+8. Click Review + create and then click create.
+
+9. Once the NSG is created then go to the Inbound security rules tab.
+
+10. Click + Add to create a new rule.
+
+11. set the following details.
+
+12. click add.
+
+13. Finally, test the VM connectivity.
+
+--->Create a Network Security Group to establish connection among VMs to ping each other and understand how the priority works.
+
+1. Log in to Azure Portal.
+
+2. Search for Network Security Groups.
+
+3. Click Add to create a new NSG.
+
+4. Name the NSG and select the resource group.
+
+5. Go to Inbound security rules.
+
+6. Add a rule.
+
+7. Set Source to Virtual network destination to virtual network, Protocol to ICMP and Priority to 100.
+
+8. Go to Outbound security rules.
+
+9. Add a rule with the same settings, Priority as 200.
+
+10. Create the NSG.
+
+11. Test ping between VMs.
+
