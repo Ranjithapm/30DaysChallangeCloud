@@ -1,0 +1,29 @@
+TASK-4
+
+
+
+---> Here are the steps which I performed on it.
+
+1. Log in to the Azure portal.
+2. Click "Create a resource".
+3. Search for "Virtual Network" and select it.
+4. Click "Create."
+5. Enter a name and select the subscription and resource group.
+6. Set the IP address range in the "Address space" tab.
+7. Create a subnet in the "Subnets" tab for developing resources.
+8. Configure security settings in the "Security" tab.
+9. Add tags if needed in the "Tags" tab.
+10. Click "Review + Create," then "Create."
+11. Wait for the virtual network to be created.
+12. To create a Hub VNet, click "Create a resource" and choose "Virtual Network."
+13. Name the hub VNet and choose the subscription and resource group.
+14. Set the hub VNet's IP address range.
+15. Create a subnet for hub resources in the "Subnets" tab.
+16. Configure security in the "Security" tab.
+17. Click "Review + Create," then "Create."
+18. To connect spoke VNets to the hub, select a spoke VNet.
+19. Go to the "Connectivity" tab and click "Add."
+20. Select "Virtual Network" as the connection type.
+21. Enter hub VNet details and click "Save."
+22. Repeat for each spoke VNet.
+23. Now the hub and spoke architecture is set-up.
