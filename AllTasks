@@ -1,29 +1,35 @@
 **"30 Days of Azure Tasks"** is likely a program or challenge that involves completing various tasks related to Azure over the course of 30 days. These tasks could include learning about different Azure services, building and deploying applications on Azure, or configuring and managing Azure resources.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Task-1
 
 1. [Create a Vnet and set up a subnet on the created Vnet]
 2. [Create a VM on the subnet and access VM]
 
 Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_azure-cloudcomputing-learningjourney-activity-7254162314789072899-UOvD?utm_source=share&utm_medium=member_desktop
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Task-2
 
 1. [Create Private and Public subnets in the above created Vnet]
 2. [Create a VM and attach multiple NIC with it]
 
 Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_azure-cloudcomputing-azurechallenge-activity-7254409543487508481-0L2i?utm_source=share&utm_medium=member_desktop
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Task-3
 
 1. [Create multiple VMs (i.e.) VM1 and VM2 in two different Virtual networks]
 2. [Create a Network Security Group to establish connection among VMs to ping each other and understand how the priority works]
 
 Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_30daysazurecloudchallenge-azure-cloudcomputing-activity-7254902640499675154-euy-?utm_source=share&utm_medium=member_desktop
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Task-4
 
 1. [To develope Vnet and Configure Hub and Spoke Architecture and verify it's working by launching VM in each VNet and ping from Management VM to every other VM.]
 
 Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_30daysazurecloudchallenge-azure-cloudcomputing-activity-7255221562360901632-cmZs?utm_source=share&utm_medium=member_desktop
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Task-5
 
+1. [To create a load balancer in azure]
+
+Linkedin: https://www.linkedin.com/posts/ranjitha-prabha-p-265046296_30daysazurecloudchallenge-azure-cloudcomputing-activity-7255420658002636802-F4Q3?utm_source=share&utm_medium=member_desktop
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
