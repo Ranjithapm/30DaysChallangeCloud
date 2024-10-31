@@ -1,0 +1,16 @@
+1. Sign in to the Azure portal.
+2. Navigate to Storage accounts and click create.
+3. Enter the required details, such as resource group, storage account name, and region. Make sure to select Standard as the performance tier.
+4. Choose review + create and then click create.
+5. After creating the storage account, go to the Storage account page.
+6. In the left menu, find Static website and select it.
+7. Enable the Static website option.
+8. Specify the names for your Index document and give name as index.html and Error document as 404.html.
+9. Click Save and a primary endpoint URL will appear and copy the URL.
+10. Once the static website is enabled, a special container named $web will be created in your storage account.
+11. Go to the containers option in the storage account menu, and select $web.
+Upload your files by selecting Upload.
+12. Use the Primary endpoint URL provided in the Static Website settings to view your hosted website.
+13. Test the URL to confirm that your website is live.
+14. Now the content which you written in the blob is copied to index.html file.
+15. Finally, To host a static website with Azure Storage.
