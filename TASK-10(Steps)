@@ -1,0 +1,19 @@
+Step 1: Go to azure portal.
+
+step 2: Search for policy.
+
+step 3: Click on definitions on the left side.
+
+step 4: Type require a tag and then click require a tag on resource.
+
+step 5: Click on assign policy at the top.
+
+step 6: Fill the required details under basics, parameters, etc and then click review and create. Now you can go to assignments under definitions to view your creation.
+
+step 7: Now search for public ip address.
+
+step 8: Click create and then fill the required details in basics.
+
+step 9: Under tags, type CreatedBy : Jeremy Wallace.
+
+step 10: Finally click on review and create.
