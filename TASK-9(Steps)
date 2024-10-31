@@ -1,0 +1,14 @@
+1. Go to your VM in the Azure portal, stop the VM to ensure data consistency during the snapshot.
+2. Navigate to the Disks section of the VM.
+3. Select the OS disk.
+4. Choose Create snapshot.
+5. Specify the snapshot name, select Full snapshot type, and save.
+6. Create a Managed Disk from Snapshot:
+7. Go to Snapshots under Disks in the Azure portal.
+8. Select the snapshot created and choose Create Disk.
+9. Name the managed disk and configure its settings.
+10. Create a VM from the Managed Disk:
+11. Go to Virtual Machines and select Create.
+12. Choose the Create a VM from a disk option.
+13. Specify the managed disk created from the snapshot.
+14. Configure the VM settings and complete the creation process.
