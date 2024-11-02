@@ -1,0 +1,21 @@
+Task-11
+
+step 1: Go to azure portal
+step 2: Create a resource group.
+step 3: Create a virtual network with the required details, ip address, etc.
+step 4: Now, create two virtual machine(vm1 and vm2) with the same VN created above.
+step 5: Once you created, click review+create.
+step 6: Copy the public ip address of vm1.
+step 7: Open remote desktop connection, and paste the ip address and then click connect after you entered your username and password.
+step 8: This will open a new window, in that open command prompt and then type ping 11.0.0.5(Your private ip address of vm1).
+step 9: This will give some replies. Once it is finished, type firewall.cpl
+step 10: This will open a control panel -> system and security -> firewall.
+step 11: Minimize the control panel and navigate to RDP.
+step 12: Click add roles and features -> next -> next -> next ->web server(IIS) -> Add features -> next -> next -> next -> next ->click Install.
+step 13: This will install the features that you added.
+step 14: Copy the public ip of vm2 and open RDP and then paste.
+step 15: Go to local server, in that click IE Enhanced security configurations, and turn off both the settings.
+step 16: Search Internet explorer and open it.
+step 17: Type google and then open the google by browsing, then type speedtest.
+step 18: Open the new tab and paste the private ip address of vm2 this will ensure the connection.
+step 19: Finally, 2VMs are created and the connection was made.
